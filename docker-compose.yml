@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: conventions
+      POSTGRES_PASSWORD: conventions
+      POSTGRES_DB: conventions
+    ports:
+      - 5432:5432

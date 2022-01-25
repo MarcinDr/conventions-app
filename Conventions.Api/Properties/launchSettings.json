@@ -1,0 +1,22 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Conventions.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7277;http://localhost:5220",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "local",
+        "PGUSER": "conventions",
+        "PGPASSWORD": "conventions",
+        "PGDATABASE": "conventions",
+        "PGHOST": "localhost",
+        "PGPORT": "5432",
+        "OAUTH_AUDIENCE": "venues.api",
+        "OAUTH_AUTHORITY_URL": "https://dev-xhrc91y0.eu.auth0.com"
+      }
+    }
+  }
+}

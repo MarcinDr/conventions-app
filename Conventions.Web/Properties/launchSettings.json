@@ -1,0 +1,18 @@
+﻿{
+  "profiles": {
+    "Conventions": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:7058;http://localhost:5297",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "local",
+        "SERVICE_NAME": "conventions",
+        "FORWARD_URL": "https://localhost:7277",
+        "OAUTH_CLIENT_ID": "",
+        "OAUTH_CLIENT_SECRET": "",
+        "OAUTH_ALLOWED_SCOPES": "offline_access openid venues.admin venues.read events.admin events.read talks.admin talks.read attendance.admin",
+        "OAUTH_AUTHORITY_URL": "dev-xhrc91y0.eu.auth0.com"
+      }
+    }
+  }
+}
